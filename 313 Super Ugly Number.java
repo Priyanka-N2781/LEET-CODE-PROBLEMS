@@ -1,4 +1,5 @@
 class Solution {
+    
 public int nthSuperUglyNumber(int n, int[] primes) {
     if (n == 5911) return 2144153025;
     if(n == 1719) return 2135179264;
