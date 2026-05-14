@@ -14,7 +14,6 @@ class Solution {
         for (int x : nums) {
             if (x < 1 || x > mx)
                 return false;
-
             freq[x]++;
         }
 
