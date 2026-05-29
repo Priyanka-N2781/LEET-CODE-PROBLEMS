@@ -1,4 +1,5 @@
 class Solution {
+    
     public int minElement(int[] nums) {
         int ans = Integer.MAX_VALUE;
 
