@@ -61,7 +61,6 @@ class Solution {
             (a, b) -> Long.compare(b[0], a[0])
         );
 
-        // Initial candidates
         for (int l = 0; l < n; l++) {
             pq.offer(new long[]{getValue(l, n - 1), l, n - 1});
         }
